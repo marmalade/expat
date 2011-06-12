@@ -1,4 +1,4 @@
-build_
+build_*
 lib
 upstream
 expat-*.tar.gz
