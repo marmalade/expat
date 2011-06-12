@@ -1,0 +1,38 @@
+upstream
+{
+	url="http://source.ideaworks3d.com/upstream/expat-1.95.8.tar.gz"
+}
+
+define HAVE_EXPAT_CONFIG_H
+
+includepath
+{
+	.
+	"upstream/lib"
+}
+
+files
+{
+	expat.defines.txt
+	expat_config.h
+
+	[lib]
+	("upstream/lib")
+	ascii.h
+	asciitab.h
+	expat.h
+	expat_external.h
+	iasciitab.h
+	internal.h
+	latin1tab.h
+	macconfig.h
+	nametab.h
+	utf8tab.h
+	winconfig.h
+	xmlparse.c
+	xmlrole.c
+	xmlrole.h
+	xmltok.c
+	xmltok.h
+}
+
