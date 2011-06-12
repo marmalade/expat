@@ -1,0 +1,6 @@
+build_
+lib
+upstream
+expat-*.tar.gz
+expat_*.mdev
+expat_*.msrc

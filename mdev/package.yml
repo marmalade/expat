@@ -3,14 +3,15 @@ Version: 1.9.5
 Revision: 9
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: expat.mkf
+Libraries: expat
 Description: |
  XML parsing C library - runtime library.
  This package contains the runtime, shared library of expat, the C
  library for parsing XML. Expat is a stream-oriented parser in
  which an application registers handlers for things the parser
  might find in the XML document (like start tags).
-Contents-src:
- - README.txt
+Contents-Source:
+ - README.rst
  - expat.defines.txt
  - expat_config.h
  - expat.mkf
@@ -18,17 +19,3 @@ Contents:
  - expat_config.h: h/expat_config.h
  - upstream/lib/expat_external.h: h/expat_external.h
  - upstream/lib/expat.h: h/expat.h
- - lib/arm/expat.a
- - lib/arm/expat_d.a
- - lib/arm/libexpat.a
- - lib/arm/libexpat_d.a
-Contents-platform:
-  win32:
-    - lib/x86/expat.lib
-    - lib/x86/expat_d.lib
-  linux:
-    - lib/x86/linux/libexpat.a
-    - lib/x86/linux/libexpat_d.a
-  macosx:
-    - lib/x86/darwin/libexpat.a
-    - lib/x86/darwin/libexpat_d.a
