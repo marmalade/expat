@@ -1,6 +1,4 @@
 Package: expat
-Version: 1.9.5
-Revision: 9
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: expat.mkf
 Libraries: expat

@@ -1,0 +1,5 @@
+expat (1.9.5-10)
+
+  * add changelog and rebuild with latest SDK for mips support.
+
+ -- Sam Clegg <sam@marmalademail.com>  Tue, 02 Aug 2011 23:18:21 +0000
